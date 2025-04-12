@@ -1,3 +1,3 @@
-<?php 
-echo "This is from conflict A";
+<?php
+echo "Code written by branch m";
 ?>
