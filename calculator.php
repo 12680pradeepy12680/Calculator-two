@@ -1,5 +1,5 @@
 <?php
-echo "This is resolved version";
+echo "Alpha logic added here";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $num1 = $_POST['num1'];
@@ -8,6 +8,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //add
 
     switch ($operation) {
+		    //Div
+             case 'div':
+             echo "Result : " . ($num2 != 0 ? $num1 / $num2 : "Cannot divide by zero");
+             break;
             case 'mul':
             echo "Result: " . ($num1 * $num2);
             break;
