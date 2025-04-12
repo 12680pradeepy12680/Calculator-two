@@ -1,5 +1,6 @@
 <?php
-echo "Alpha logic added here";
+echo "This is logic from conflict-a branch";
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $num1 = $_POST['num1'];
