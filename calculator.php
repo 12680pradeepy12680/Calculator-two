@@ -1,5 +1,5 @@
 <?php
-echo "This line is written by conflict-1 branch";
+echo "This line is written by conflict-2 branch";
 ?>
 <?php
 echo "This is logic from conflict-a branch";
