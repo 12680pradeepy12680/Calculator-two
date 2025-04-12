@@ -1,5 +1,5 @@
 <?php
-echo "This is from Alpha branch";
+echo "This is resolved version";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $num1 = $_POST['num1'];
